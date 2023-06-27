@@ -1,0 +1,4 @@
+select cole
+from challe
+gropu by college
+having coutn(*)>1

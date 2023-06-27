@@ -1,0 +1,53 @@
+1.  select EMP_ID ,count(EMP_ID)from Employe group by EMP_ID having count(EMP_ID)>1;
+
+2.  select * from Employee order by salary desc limit 2,1;
+
+3.  Inner join
+
+TableA    TableB
+------    -------
+1           1
+1           1
+2           2
+1           1
+1           1
+4           4
+NULL        NULL
+
+Left join
+
+TableA    TableB
+------    -------
+1           1
+1           1
+2           2
+1           1
+1           1
+4           4
+NULL        NULL
+3           NULL
+
+Full outer join
+TableA    TableB
+------    -------
+1           1
+1           1
+2           2
+1           1
+1           1
+4           4
+NULL        NULL
+3           NULL
+NULL        0
+
+
+4.
+
+5. 
+select max(salary) from Employee where DEPT='HR';
+
+
+
+
+
+
