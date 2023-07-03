@@ -1,5 +1,5 @@
-from mypckg import file2
 from mypckg import file1
+from mypckg import file2
 from mypckg.factorial import factorial
 
 result = factorial(5)
